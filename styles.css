@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+}
+h1 {
+    color:rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;  
+}
+#main {
+    display: flex;
+    flex-direction: row;
+}
+#div1 {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(69, 176, 182);
+    text-align: center;
+    color: white;
+}
+#div2 {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(69, 176, 182);
+    text-align: center;
+    color: white;
+}
+h2 {
+    color:rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+    font-size: 1em;
+    margin-bottom: 5px;
+
+}
+.row {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+#choice-1 {
+    display: inline-block;
+    margin: 5px;
+    font-size: 1em;
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);      
+}
+#choice-2 {
+    display: inline-block;
+    margin: 5px;
+    font-size: 1em;
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+#choice-3 {
+    display: inline-block;
+    margin: 5px;
+    font-size: 1em;
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+#clouds1 {
+    width: 100%;
+    object-fit: contain;
+    display:block;
+     }
+#clouds {
+    width: 100%;
+    object-fit: contain;
+    display:none;
+  }
+#leather {
+    width: 100%;
+    object-fit: contain;
+    display:none;
+  }
+#leaves {
+    width: 100%;
+    object-fit: contain;
+    display:none;
+  }
+.label {
+    display: block;
+    align-items:center
+}
+
+.cordially {
+  
+    position: absolute;
+    top: 50%;
+    left:75%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
+#firstName2 {
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
+

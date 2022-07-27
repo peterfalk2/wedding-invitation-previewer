@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Wedding Invitation Designer</title>
+</head>
+<body>
+    <header>
+        <h1>Wedding Invitation Designer</h1>
+    </header>
+    <main id = "main">
+        <div id="div1">
+            <h2>Background styles:</h2>
+            <div class="row">
+                <button type="button" id = "choice-1" onclick="show1()">Clouds</button>
+                <button type="button" id = "choice-2" onclick="show2()">Leather</button>
+                <button type="button" id = "choice-3" onclick="show3()">Leaves</button>
+            </div>
+            <div>
+                <hr>
+            </div>
+            <div class="label">
+                <label for= "firstName" class="label">First name:</label>
+                    <input type = "text" id = "firstName"><br><br>
+                <label for= "secondName" class="label">Second name:</label>
+                    <input type = "text" id = "secondName" value><br><br>
+                <label for= "Surname" class="label">Surname:</label>
+                    <input type = "text" id = "middleName"><br><br>
+                <label for= "weddingDate" class="label">Wedding date:</label>
+                    <input type = "text" id = "weddingDate"><br><br>
+                <label for= "weddingLocation" class="label">Wedding location:</label>
+                    <input type = "text" id = "weddingLocation"><br><br>
+            </div>
+        </div>
+
+        <div id="div2">
+            <div class="cordially">You are cordially invited to the wedding of
+            </div>
+            <div id="firstName2">
+            </div>
+            <img src="images/clouds.jpg" id = "clouds1" alt="clouds1">
+            <img src="images/clouds.jpg" id = "clouds" alt="clouds">
+            <!-- Photo by <a href="https://unsplash.com/@lauravinck?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura Vinck</a> on <a href="https://unsplash.com/backgrounds/art/texture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+            <img src="images/leather.jpg" id = "leather" alt="leather">
+            <!-- Photo by <a href="https://unsplash.com/@felipesantana?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Felipe Santana</a> on <a href="https://unsplash.com/backgrounds/art/texture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+            <img src="images/leaves.jpg" id = "leaves" alt="leaves">
+            <!-- Photo by <a href="https://unsplash.com/@therawhunter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Massimiliano Morosinotto</a> on <a href="https://unsplash.com/backgrounds/art/texture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+        </div>
+    </main>
+    <script type = "text/javascript" src="script.js"></script>
+</body>
+</html>
