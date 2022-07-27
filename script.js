@@ -34,19 +34,16 @@ function show1() {
   
   
   document.getElementById(`firstName`).onkeyup = function () {
-          let stringValue1 = document.getElementById(`firstName`).value;
-          document.getElementById(`firstName2`).textContent = stringValue1;
-         // console.log(stringValue1)
+          let name1 = document.getElementById(`firstName`).value;
+          document.getElementById(`firstName2`).textContent = name1;
   }
   
-  /*
-  const name = ``;
-  const message = & ${name};
-  */
+
   
   document.getElementById(`secondName`).onkeyup = function () {
-          let stringValue2 = document.getElementById(`secondName`).value;
-          document.getElementById(`firstName2`).textContent = stringValue2;
-          //console.log(`&` );
+          let name1 = document.getElementById(`firstName`).value;
+          let name2 = document.getElementById(`secondName`).value;
+          document.getElementById(`firstName2`).innerText = `${name1} & ${name2}`
+          
   }
   
