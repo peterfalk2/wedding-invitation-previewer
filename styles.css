@@ -30,6 +30,7 @@ h2 {
     text-align: center; 
     font-size: 1em;
     margin-bottom: 5px;
+   
 
 }
 .row {
@@ -90,8 +91,7 @@ h2 {
     align-items:center
 }
 
-.cordially {
-  
+#cordially {
     position: absolute;
     top: 50%;
     left:75%;
@@ -104,5 +104,8 @@ h2 {
     left: 75%;
     transform: translate(-50%, -50%);
     font-size: 2vw;
+}
+.words {
+    font-family: cursive;
 }
 

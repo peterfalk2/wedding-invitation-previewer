@@ -7,6 +7,8 @@ function show1() {
             .style.display = "none";
     document.getElementById('clouds')
             .style.display = "block";
+    document.querySelector(".words").style.fontFamily = "cursive";
+
   }
   
   function show2() {
@@ -18,6 +20,7 @@ function show1() {
             .style.display = "none";
     document.getElementById('leather')
             .style.display = "block";
+    document.querySelector(".words").style.fontFamily = "'Courier New', Courier, monospace";
   }
   
   function show3() {
@@ -29,7 +32,7 @@ function show1() {
             .style.display = "none";
     document.getElementById('leaves')
             .style.display = "block";      
-   
+    document.querySelector(".words").style.fontFamily = "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
   }  
   
   
@@ -45,7 +48,7 @@ function show1() {
           let name1 = document.getElementById(`firstName`).value;
           let name2 = document.getElementById(`secondName`).value;
           document.getElementById(`firstName2`).innerText = `${name1} & ${name2}`;
-          document.getElementById(`firstName2Initials`).textContent = `${name1[0]} & ${name2[0]}`;
+          document.getElementById(`firstName2Initials`).innerText = `${name1[0]} & ${name2[0]}`;
           
   }
   
