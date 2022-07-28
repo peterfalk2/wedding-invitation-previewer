@@ -90,7 +90,13 @@ h2 {
     display: block;
     align-items:center
 }
-
+#initials {
+    position: absolute;
+    top: 40%;
+    left:75%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
 #cordially {
     position: absolute;
     top: 50%;
@@ -100,12 +106,51 @@ h2 {
 }
 #firstName2 {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 75%;
     transform: translate(-50%, -50%);
     font-size: 2vw;
 }
-.words {
+#surname2 {
+    position: absolute;
+    top: 70%;
+    left: 75%; 
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
+#weddingDate2 {
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
+#weddingLocation2 {
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
+.words1 {
+    font-family: cursive;
+}
+.words2 {
+    font-family: cursive;
+}
+.words3 {
+    font-family: cursive;
+}
+.words4 {
+    font-family: cursive;
+}
+.words5 {
+    font-family: cursive;
+}
+.words6 {
+    font-family: cursive;
+}
+.words7 {
     font-family: cursive;
 }
 
