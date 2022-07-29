@@ -1,9 +1,10 @@
 body {
-    background-color: black;
+    background-color: rgb(235, 147, 64);
 }
 h1 {
     color:rgb(255, 255, 255);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
     text-align: center;  
 }
 #main {
@@ -20,9 +21,10 @@ h1 {
 }
 
 #div2 {
+    position: relative;
     width: 50%;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(235, 147, 64);
     margin: 10px;
 }
 h2 {
@@ -30,6 +32,7 @@ h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center; 
     font-size: 1em;
+    margin-top: 40px;
     margin-bottom: 5px;
    
 
@@ -68,22 +71,25 @@ h2 {
     color: rgb(255, 255, 255);
 }
 #roses1 {
+    position:absolute;
     width: 100%;
     object-fit: contain;
     display:block;
      }
 #roses {
+    position:absolute;
     width: 100%;
     object-fit: contain;
     display:none;
-
   }
 #leather {
+    position:absolute;
     width: 100%;
     object-fit: contain;
     display:none;
   }
 #blossom {
+    position:absolute;
     width: 100%;
     object-fit: contain;
     display:none;
@@ -93,18 +99,8 @@ h2 {
     align-items:center
 }
 #initials {
-    position: absolute;
-    top: 40%;
-    left:75%;
-    transform: translate(-50%, -50%);
-    font-size: 2vw;
-    text-align: center;
-    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
     
-}
-#cordially {
-    position: absolute;
-    top: 50%;
+    top: 40%;
     left:75%;
     transform: translate(-50%, -50%);
     color: white;
@@ -112,43 +108,50 @@ h2 {
     text-align: center;
     text-shadow: 1px 1px 1px  rgb(92, 90, 90);
     
+}
+#cordially {
     
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);   
 }
 #firstName2 {
-    position: absolute;
-    top: 60%;
-    left: 75%;
-    transform: translate(-50%, -50%);
+    
+    color: white;
     font-size: 2vw;
     text-align: center;
     text-shadow: 1px 1px 1px  rgb(92, 90, 90);
     
 }
 #surname2 {
-    position: absolute;
+   
     top: 70%;
     left: 75%; 
     transform: translate(-50%, -50%);
+    color: white;
     font-size: 2vw;
     text-align: center;
     text-shadow: 1px 1px 1px  rgb(92, 90, 90);
    
 }
 #weddingDate2 {
-    position: absolute;
+  
     top: 80%;
     left: 75%;
     transform: translate(-50%, -50%);
+    color: white;
     font-size: 2vw;
     text-align: center;
     text-shadow: 1px 1px 1px  rgb(92, 90, 90);
     
 }
 #weddingLocation2 {
-    position: absolute;
+    
     top: 90%;
     left: 75%;
     transform: translate(-50%, -50%);
+    color: white;
     font-size: 2vw;
     text-align: center;
     text-shadow: 1px 1px 1px  rgb(92, 90, 90);
@@ -175,4 +178,11 @@ h2 {
 .words7 {
     font-family: cursive;
 }
-
+.images {
+    position:relative
+}
+.words {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
