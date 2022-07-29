@@ -16,13 +16,14 @@ h1 {
     background-color: rgb(69, 176, 182);
     text-align: center;
     color: white;
+    margin: 10px;
 }
+
 #div2 {
     width: 50%;
     height: 100vh;
-    background-color: rgb(69, 176, 182);
-    text-align: center;
-    color: white;
+    background-color: black;
+    margin: 10px;
 }
 h2 {
     color:rgb(255, 255, 255);
@@ -66,22 +67,23 @@ h2 {
     border-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
-#clouds1 {
+#roses1 {
     width: 100%;
     object-fit: contain;
     display:block;
      }
-#clouds {
+#roses {
     width: 100%;
     object-fit: contain;
     display:none;
+
   }
 #leather {
     width: 100%;
     object-fit: contain;
     display:none;
   }
-#leaves {
+#blossom {
     width: 100%;
     object-fit: contain;
     display:none;
@@ -96,13 +98,21 @@ h2 {
     left:75%;
     transform: translate(-50%, -50%);
     font-size: 2vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
+    
 }
 #cordially {
     position: absolute;
     top: 50%;
     left:75%;
     transform: translate(-50%, -50%);
+    color: white;
     font-size: 2vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
+    
+    
 }
 #firstName2 {
     position: absolute;
@@ -110,6 +120,9 @@ h2 {
     left: 75%;
     transform: translate(-50%, -50%);
     font-size: 2vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
+    
 }
 #surname2 {
     position: absolute;
@@ -117,6 +130,9 @@ h2 {
     left: 75%; 
     transform: translate(-50%, -50%);
     font-size: 2vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
+   
 }
 #weddingDate2 {
     position: absolute;
@@ -124,6 +140,9 @@ h2 {
     left: 75%;
     transform: translate(-50%, -50%);
     font-size: 2vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
+    
 }
 #weddingLocation2 {
     position: absolute;
@@ -131,6 +150,9 @@ h2 {
     left: 75%;
     transform: translate(-50%, -50%);
     font-size: 2vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
+   
 }
 .words1 {
     font-family: cursive;

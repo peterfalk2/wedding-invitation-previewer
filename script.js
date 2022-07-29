@@ -1,11 +1,11 @@
 function show1() {
-    document.getElementById('clouds1')
+    document.getElementById('roses1')
            .style.display = "none";
     document.getElementById('leather')
             .style.display = "none";
-    document.getElementById('leaves')
+    document.getElementById('blossom')
             .style.display = "none";
-    document.getElementById('clouds')
+    document.getElementById('roses')
             .style.display = "block";
     document.querySelector(".words1").style.fontFamily = "cursive";
     document.querySelector(".words2").style.fontFamily = "cursive";
@@ -18,11 +18,11 @@ function show1() {
   }
   
   function show2() {
-    document.getElementById('clouds1')
+    document.getElementById('roses1')
             .style.display = "none";
-    document.getElementById('leaves')
+    document.getElementById('blossom')
             .style.display = "none";
-    document.getElementById('clouds')
+    document.getElementById('roses')
             .style.display = "none";
     document.getElementById('leather')
             .style.display = "block";
@@ -36,13 +36,13 @@ function show1() {
 }
   
   function show3() {
-    document.getElementById('clouds1')
+    document.getElementById('roses1')
             .style.display = "none";
-    document.getElementById('clouds')
+    document.getElementById('roses')
             .style.display = "none";
     document.getElementById('leather')
             .style.display = "none";
-    document.getElementById('leaves')
+    document.getElementById('blossom')
             .style.display = "block";      
     document.querySelector(".words1").style.fontFamily = "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
     document.querySelector(".words2").style.fontFamily = "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
