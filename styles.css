@@ -157,7 +157,7 @@ h2 {
 .words {
     font-family: cursive;  
     color: rgb(255, 255, 255);
-    font-size: 2.2vw;
+    font-size: 1.7vw;
     text-shadow: 1px 1px 1px  rgb(92, 90, 90);  
     padding-top: 1.5vw;
     position: relative;
@@ -165,16 +165,14 @@ h2 {
 }
 #firstName2Initials {
     font-size: 4vw;
-    /*
-    background: #b8b8b855;
-    */
+    padding-top: 1.5vw;
 }
 #cordially {
-    padding-top: 15vw;
+    padding-top: 12vw;
 }
 #firstName2 {
     padding-top: 2vw;
 }
 #weddingDate2 {
-    padding-top: 10vw;
+    padding-top: 6vw;
 }
