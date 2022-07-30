@@ -1,6 +1,5 @@
 body {
     background-color: rgb(235, 147, 64);
-    height: 100%;
 }
 header {
     display: flex;
@@ -35,21 +34,22 @@ main {
     display: flex;
     flex-direction: row;
 }
+#blank {
+    width: 7%
+}
 #div3 {
-    width: 55%;
-    height: inherit;
+    width: 40%;
     background-color: rgb(69, 176, 182);
+    margin-left: 3vw;
     text-align: center;
     color: rgb(255, 255, 255);
-    margin: 10px;  
+    margin-left: 3vw; 
     border-radius: 25px;
 }
 #div4 {
     position: relative;
     width: 45%;
-    height: 100vh;
     background-color: rgb(235, 147, 64);
-    margin: 10px;
 }
 h2 {
     color:rgb(255, 255, 255);
@@ -99,29 +99,41 @@ h2 {
 }
 #roses1 {
     position:absolute;
-    width: 100%;
+    width: 85%;
     object-fit: contain;
+    margin-top: 0vw;
+    padding-top: ;
+    margin-left: 3vw;
     display:block;
     border-radius: 25px;
      }
 #roses {
     position:absolute;
-    width: 100%;
+    width: 85%;
     object-fit: contain;
+    margin-top: 0vw;
+    padding-top: ;
+    margin-left: 3vw;
     display:none;
     border-radius: 25px;
   }
 #leather {
     position:absolute;
-    width: 100%;
+    width: 85%;
     object-fit: contain;
+    margin-top: 0vw;
+    padding-top: ;
+    margin-left: 3vw;
     display:none;
     border-radius: 25px;
   }
 #blossom {
     position:absolute;
-    width: 100%;
+    width: 85%;
     object-fit: contain;
+    margin-top: 0vw;
+    padding-top: ;
+    margin-left: 3vw;
     display:none;
     border-radius: 25px;
   }
@@ -129,6 +141,7 @@ h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5vw;
     padding-top: 1vw;
+    padding-bottom: 1vw;
     display: block;
     align-items:center
 }
