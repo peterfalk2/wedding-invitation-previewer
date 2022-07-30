@@ -102,7 +102,6 @@ h2 {
     width: 85%;
     object-fit: contain;
     margin-top: 0vw;
-    padding-top: ;
     margin-left: 3vw;
     display:block;
     border-radius: 25px;
@@ -112,7 +111,6 @@ h2 {
     width: 85%;
     object-fit: contain;
     margin-top: 0vw;
-    padding-top: ;
     margin-left: 3vw;
     display:none;
     border-radius: 25px;
@@ -122,7 +120,6 @@ h2 {
     width: 85%;
     object-fit: contain;
     margin-top: 0vw;
-    padding-top: ;
     margin-left: 3vw;
     display:none;
     border-radius: 25px;
@@ -132,7 +129,6 @@ h2 {
     width: 85%;
     object-fit: contain;
     margin-top: 0vw;
-    padding-top: ;
     margin-left: 3vw;
     display:none;
     border-radius: 25px;
@@ -144,6 +140,21 @@ h2 {
     padding-bottom: 1vw;
     display: block;
     align-items:center
+}
+#firstName {
+    font-size: 1.5vw;
+}
+#secondName {
+    font-size: 1.5vw;
+}
+#surname {
+    font-size: 1.5vw;
+}
+#weddingDate {
+    font-size: 1.5vw;
+}
+#weddingLocation {
+    font-size: 1.5vw;
 }
 #initials {
     font-size: 20px;
