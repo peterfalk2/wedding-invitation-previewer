@@ -34,8 +34,10 @@ main {
     display: flex;
     flex-direction: row;
 }
+/* This blank div is being used as a spacer for layout styling. 
+I did not want the blue background to be too large. */
 #blank {
-    width: 7%
+    width: 4%
 }
 #div3 {
     width: 40%;
@@ -45,6 +47,7 @@ main {
     color: rgb(255, 255, 255);
     margin-left: 3vw; 
     border-radius: 25px;
+    margin-right: 20px;
 }
 #div4 {
     position: relative;
@@ -97,6 +100,7 @@ p {
     border-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
+/* "roses1" will be displayed when a user first opens the website. Other invitation images set to "display: none". */
 #roses1 {
     position:absolute;
     width: 85%;
@@ -157,7 +161,6 @@ p {
     font-size: 1.5vw;
 }
 #initials {
-    font-size: 20px;
     color: rgb(255, 255, 255);
     font-size: 2vw;
     text-shadow: 1px 1px 1px  rgb(92, 90, 90);  
