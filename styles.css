@@ -147,7 +147,7 @@ p {
 .words {
     font-family: cursive;  
     color: rgb(255, 255, 255);
-    font-size: 1vw;
+    font-size: 1.7vw;
     text-shadow: 1px 1px 1px  rgb(92, 90, 90); 
     padding-right: 8vw; 
    
@@ -155,15 +155,15 @@ p {
     text-align: center; 
 }
 #Initials {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     padding-top: 1.5vw;
 }
 #cordially {
-    padding-top: 10vw;
+    padding-top: 7vw;
 }
 #firstName2 {
     padding-top: 2vw;
 }
 #weddingDate2 {
-    padding-top: 6vw;
+    padding-top: 4vw;
 }
