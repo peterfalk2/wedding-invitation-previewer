@@ -206,6 +206,7 @@ p {
     grid-row-start:5;
     grid-row-end: 7;
 }
+/*
 #blankText2 {
     grid-column-start: 1;
     grid-column-end:4;
@@ -213,11 +214,12 @@ p {
     grid-row-end: 8;
     visibility: hidden;
 }
+*/
 #firstName2 {
     grid-column-start: 1;
     grid-column-end:4;
-    grid-row-start:8;
-    grid-row-end: 9;
+    grid-row-start:7;
+    grid-row-end: 8;
     word-break: break-word;
     min-height: 0px;
     min-width: 0px;
@@ -227,8 +229,8 @@ p {
 #surname2 {
     grid-column-start: 1;
     grid-column-end:4;
-    grid-row-start:9;
-    grid-row-end: 10;
+    grid-row-start:8;
+    grid-row-end: 9;
     word-break: break-word;
     margin-left: 4vw;
     margin-right: 5vw;
