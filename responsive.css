@@ -1,6 +1,6 @@
 /* Website designed Desktop down. Settings adjustments here for when displayed on a mobile phone. 
 Display changed from Flexbox to block so that items folow after each other, rather than being positioned in two columns.
-Font, button and label sizes made larger and text positioning changed.*/
+Font, button and label sizes made larger and text positioning changed.
 
 @media only screen and (max-width:600px) {
 
@@ -110,3 +110,4 @@ p {
 #weddingDate2 {
     padding-top: 12vw;
 }
+*/

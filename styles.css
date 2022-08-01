@@ -6,26 +6,26 @@ header {
     flex-direction:row;
 }
 #wedding-couple {
-    height: 70%;
-    width: 70%;
-    padding-left: 4vw; 
+    width: 50%;
+    padding-left: 9vw; 
+    padding-bottom: 1vw;
  }
  h1 {
     color:rgb(255, 255, 255);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 1px 1px 1px  rgb(92, 90, 90);
     font-size: 5vw;  
-    padding-right: 4vw;
+    padding-right: 6vw;
 
 }
 #div1 {
-    width: 25%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #div2 {
-    width: 75%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,33 +34,29 @@ main {
     display: flex;
     flex-direction: row;
 }
-/* This blank div is being used as a spacer for layout styling. 
-I did not want the blue background to be too large. */
-#blank {
-    width: 4%
-}
 #div3 {
-    width: 40%;
+    width: 50%;
     background-color: rgb(69, 176, 182);
-    margin-left: 3vw;
     text-align: center;
     color: rgb(255, 255, 255);
-    margin-left: 3vw; 
+    margin-right: 3vw; 
+    margin-left: 11vw;
     border-radius: 25px;
-    margin-right: 20px;
+    
 }
 #div4 {
     position: relative;
-    width: 45%;
+    width: 50%;
+    margin-left: 1vw;
     background-color: rgb(235, 147, 64);
 }
 p {
     color:rgb(255, 255, 255);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center; 
-    font-size: 1.7vw;
-    margin-top: 40px;
-    margin-bottom: 5px;
+    font-size: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
 }
 .row {
     display: flex;
@@ -73,7 +69,7 @@ p {
 #choice-1 {
     display: inline-block;
     margin: 5px;
-    font-size: 2vw;
+    font-size: 1.2vw;
     background-color: black;
     border-style: solid;
     border-radius: 10px;
@@ -83,7 +79,7 @@ p {
 #choice-2 {
     display: inline-block;
     margin: 5px;
-    font-size: 2vw;
+    font-size: 1.2vw;
     background-color: black;
     border-style: solid;
     border-radius: 10px;
@@ -93,7 +89,7 @@ p {
 #choice-3 {
     display: inline-block;
     margin: 5px;
-    font-size: 2vw;
+    font-size: 1.2vw;
     background-color: black;
     border-style: solid;
     border-radius: 10px;
@@ -103,7 +99,7 @@ p {
 /* "roses1" will be displayed when a user first opens the website. Other invitation images set to "display: none". */
 #roses1 {
     position:absolute;
-    width: 85%;
+    width: 65%;
     object-fit: contain;
     margin-top: 0vw;
     margin-left: 3vw;
@@ -112,7 +108,7 @@ p {
      }
 #roses {
     position:absolute;
-    width: 85%;
+    width: 65%;
     object-fit: contain;
     margin-top: 0vw;
     margin-left: 3vw;
@@ -121,7 +117,7 @@ p {
   }
 #leather {
     position:absolute;
-    width: 85%;
+    width: 65%;
     object-fit: contain;
     margin-top: 0vw;
     margin-left: 3vw;
@@ -130,7 +126,7 @@ p {
   }
 #blossom {
     position:absolute;
-    width: 85%;
+    width: 65%;
     object-fit: contain;
     margin-top: 0vw;
     margin-left: 3vw;
@@ -139,31 +135,11 @@ p {
   }
 .label {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    font-size: 1vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
     display: block;
     align-items:center
-}
-#firstName {
-    font-size: 1.5vw;
-}
-#secondName {
-    font-size: 1.5vw;
-}
-#surname {
-    font-size: 1.5vw;
-}
-#weddingDate {
-    font-size: 1.5vw;
-}
-#weddingLocation {
-    font-size: 1.5vw;
-}
-#initials {
-    color: rgb(255, 255, 255);
-    font-size: 2vw;
-    text-shadow: 1px 1px 1px  rgb(92, 90, 90);  
 }
 .images {
     position:relative
@@ -171,18 +147,19 @@ p {
 .words {
     font-family: cursive;  
     color: rgb(255, 255, 255);
-    font-size: 1.7vw;
-    text-shadow: 1px 1px 1px  rgb(92, 90, 90);  
-    padding-top: 1.5vw;
+    font-size: 1vw;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90); 
+    padding-right: 8vw; 
+   
     position: relative;
     text-align: center; 
 }
-#firstName2Initials {
-    font-size: 4vw;
+#Initials {
+    font-size: 2.5vw;
     padding-top: 1.5vw;
 }
 #cordially {
-    padding-top: 12vw;
+    padding-top: 10vw;
 }
 #firstName2 {
     padding-top: 2vw;

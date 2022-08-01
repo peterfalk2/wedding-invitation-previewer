@@ -61,7 +61,7 @@ function show1() {
           let name1 = document.getElementById(`firstName`).value;
           document.getElementById(`firstName2`).innerText = name1;
 // Selecting the first initial of the name (which is position 0) and display that or nothing (an empty string):
-          document.getElementById(`firstName2Initials`).innerText = name1[0] || ``;     
+          document.getElementById(`Initials`).innerText = name1[0] || ``;     
   }
  
 
@@ -78,7 +78,7 @@ function show1() {
 // So, using a Ternary Expression, (condition ? return if true : return if false;)
 //if A is true, the first string is displayed and if A is false the second (empty) string is displayed:
           document.getElementById(`firstName2`).innerText = A ? `${name1} & ${name2}` : ``;
-          document.getElementById(`firstName2Initials`).innerText = A ? `${name1[0]} & ${name2[0]}` : ``;
+          document.getElementById(`Initials`).innerText = A ? `${name1[0]} & ${name2[0]}` : ``;
 } 
    
 
