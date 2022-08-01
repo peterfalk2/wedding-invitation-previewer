@@ -144,26 +144,88 @@ p {
 .images {
     position:relative
 }
-.words {
+#div5 {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(14, 1fr);
     font-family: cursive;  
     color: rgb(255, 255, 255);
     font-size: 1.7vw;
     text-shadow: 1px 1px 1px  rgb(92, 90, 90); 
     padding-right: 8vw; 
-   
     position: relative;
     text-align: center; 
 }
 #Initials {
+    font-family: cursive;  
+    color: rgb(255, 255, 255);
     font-size: 3.5vw;
-    padding-top: 1.5vw;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end: 3;
+    margin: auto;
+    
+}
+#InitialsA {
+    font-family: cursive;  
+    color: rgb(255, 255, 255);
+    font-size: 3.5vw;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:1;
+    grid-row-end: 3;
+    margin: auto;
+    visibility: hidden;
+}
+#InitialsB {
+    font-family: cursive;  
+    color: rgb(255, 255, 255);
+    font-size: 3.5vw;
+    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
+    grid-column-start: 3;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end: 3;
+    margin: auto;
+    visibility: hidden;
 }
 #cordially {
-    padding-top: 7vw;
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:5;
+    grid-row-end: 7;
+    margin: auto;
 }
 #firstName2 {
-    padding-top: 2vw;
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:8;
+    grid-row-end: 9;
+    margin: auto;
 }
+#surname2 {
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:9;
+    grid-row-end: 10;
+    margin: auto;
+}
+
 #weddingDate2 {
-    padding-top: 4vw;
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:11;
+    grid-row-end: 12;
+    margin: auto;
+}
+#weddingLocation2 {
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:12;
+    grid-row-end: 13;
+    margin: auto;
+}
 }
