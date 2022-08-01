@@ -148,7 +148,7 @@ p {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(19); 
-    grid-auto-rows: 2vw;
+    
     font-family: cursive; 
     color: rgb(255, 255, 255);
     font-size: 1.7vw;
@@ -192,19 +192,32 @@ p {
     grid-row-end: 3;
     visibility: hidden;
 }
-
+#blankText1 {
+    font-size: 3.5vw;
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end: 5;
+    visibility: hidden;
+}
 #cordially {
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:5;
+    grid-row-end: 7;
+}
+#blankText2 {
     grid-column-start: 1;
     grid-column-end:4;
     grid-row-start:7;
     grid-row-end: 8;
+    visibility: hidden;
 }
-
 #firstName2 {
     grid-column-start: 1;
     grid-column-end:4;
-    grid-row-start:10;
-    grid-row-end: 11;
+    grid-row-start:8;
+    grid-row-end: 9;
     word-break: break-word;
     min-height: 0px;
     min-width: 0px;
@@ -214,8 +227,8 @@ p {
 #surname2 {
     grid-column-start: 1;
     grid-column-end:4;
-    grid-row-start:12;
-    grid-row-end: 13;
+    grid-row-start:9;
+    grid-row-end: 10;
     word-break: break-word;
     margin-left: 4vw;
     margin-right: 5vw;
@@ -224,15 +237,16 @@ p {
 #weddingDate2 {
     grid-column-start: 1;
     grid-column-end:4;
-    grid-row-start:15;
-    grid-row-end: 16;
-   
+    grid-row-start:12;
+    grid-row-end: 13;
+    margin-left: 4vw;
+    margin-right: 5vw;
 }
 #weddingLocation2 {
     grid-column-start: 1;
     grid-column-end:4;
-    grid-row-start:17;
-    grid-row-end: 18;
+    grid-row-start:13;
+    grid-row-end: 14;
     word-break: break-word;
     margin-left: 4vw;
     margin-right: 5vw;
