@@ -129,6 +129,21 @@ p {
     display: block;
     align-items:center
 }
+#firstName {
+    font-size: 1vw;
+  }
+  #secondName {
+    font-size: 1vw;
+  }
+  #surname {
+    font-size: 1vw;
+  }
+  #weddingDate {
+    font-size: 1vw;
+  }
+  #weddingLocation {
+    font-size: 1vw;
+  }
 .images {
     position:relative
 }

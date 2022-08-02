@@ -1,0 +1,142 @@
+@media only screen and (max-width:600px) {
+
+header {
+    display: block;  
+}
+#wedding-couple {
+    width: 30%;
+    padding-left: 0px; 
+    padding-top: 2vw;
+ }
+
+#div1 {
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div2 {
+  width: 100%;
+    display: flex;
+    text-align: center;
+}
+main {
+    display: block;
+}
+h1 {
+    font-size: 7vw; 
+    padding-right: 0px;
+}
+p {
+    font-size: 6vw;
+    padding-top: 2vw;
+}
+#choice-1 {
+    font-size: 6vw;    
+}
+#choice-2 {
+    font-size: 6vw;
+}
+#choice-3 {
+    font-size: 6vw;
+}
+#div3 {
+    width: 90%;
+    background-color: rgb(69, 176, 182);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 25px; 
+    margin-left: 5vw;
+    margin-right: 4vw;
+    margin-bottom: 4vw;
+}
+#div4 {
+    position: relative;
+    width: 100%;
+    margin-left: 0vw;
+    background-color: rgb(235, 147, 64);
+}
+#roses {
+    position:absolute;
+    width: 90%;
+    object-fit: contain;
+    margin-top: 0vw;
+    margin-left: 0vw;
+    display:block;
+    border-radius: 25px;
+  }
+#leather {
+    position:absolute;
+    width: 90%;
+    object-fit: contain;
+    margin-top: 0vw;
+    margin-left: 0vw;
+    display:none;
+    border-radius: 25px;
+  }
+#blossom {
+    position:absolute;
+    width: 90%;
+    object-fit: contain;
+    margin-top: 0vw;
+    margin-left: 0vw;
+    display:none;
+    border-radius: 25px;
+  }
+.label {
+    font-size: 6vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+  }
+  #firstName {
+    font-size: 6vw;
+  }
+  #secondName {
+    font-size: 6vw;
+  }
+  #surname {
+    font-size: 6vw;
+  }
+  #weddingDate {
+    font-size: 6vw;
+  }
+  #weddingLocation {
+    font-size: 6vw;
+  }
+.images {
+    position: relative;
+    padding-left: 5vw;
+}
+#div5 {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; 
+    font-family: cursive; 
+    color: rgb(244, 220, 124);
+    font-size: 6vw;
+    text-shadow: 1px 1px 1px  rgb(53, 53, 53); 
+    padding-right: 0vw; 
+    position: relative;
+    text-align: center; 
+}
+#Initials { 
+    color: rgb(244, 220, 124);
+    font-size: 11vw;
+    text-shadow: 1px 1px 1px  rgb(53, 53, 53); 
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end: 3;
+    margin: auto;  
+}
+#InitialsA {
+    font-size: 11vw;
+     
+}
+#InitialsB {
+    font-size: 11vw;
+}
+#blankText1 {
+    font-size: 15vw;
+}
+}
