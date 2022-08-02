@@ -128,6 +128,7 @@ p {
     grid-row-start:1;
     grid-row-end: 3;
     margin: auto;  
+    padding-top: .5vw;
 }
 #InitialsA {
     font-size: 11vw;
@@ -137,6 +138,6 @@ p {
     font-size: 11vw;
 }
 #blankText1 {
-    font-size: 15vw;
+    font-size: 12vw;
 }
 }

@@ -167,7 +167,8 @@ p {
     grid-column-end:3;
     grid-row-start:1;
     grid-row-end: 3;
-    margin: auto;  
+    margin: auto; 
+    padding-top: 0vw; 
 }
 /*Forcing row height by using "visibility hidden"*/
 #InitialsA {
