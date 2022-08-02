@@ -148,20 +148,18 @@ p {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto; 
-    
     font-family: cursive; 
-    color: rgb(255, 255, 255);
+    color: rgb(244, 220, 124);
     font-size: 1.7vw;
-    text-shadow: 1px 1px 1px  rgb(92, 90, 90); 
+    text-shadow: 1px 1px 1px  rgb(53, 53, 53); 
     padding-right: 8vw; 
     position: relative;
     text-align: center; 
 }
 #Initials { 
-     
-    color: rgb(255, 255, 255);
+    color: rgb(244, 220, 124);
     font-size: 3.5vw;
-    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
+    text-shadow: 1px 1px 1px  rgb(53, 53, 53); 
     grid-column-start: 2;
     grid-column-end:3;
     grid-row-start:1;
@@ -171,9 +169,7 @@ p {
 }
 /*Forcing row height by using "visibility hidden"*/
 #InitialsA {
-    color: rgb(255, 255, 255);
     font-size: 3.5vw;
-    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
     grid-column-start: 1;
     grid-column-end:2;
     grid-row-start:1;
@@ -182,10 +178,7 @@ p {
     
 }
 #InitialsB {
-     
-    color: rgb(255, 255, 255);
     font-size: 3.5vw;
-    text-shadow: 1px 1px 1px  rgb(92, 90, 90);
     grid-column-start: 3;
     grid-column-end:4;
     grid-row-start:1;
@@ -206,15 +199,6 @@ p {
     grid-row-start:5;
     grid-row-end: 7;
 }
-/*
-#blankText2 {
-    grid-column-start: 1;
-    grid-column-end:4;
-    grid-row-start:7;
-    grid-row-end: 8;
-    visibility: hidden;
-}
-*/
 #firstName2 {
     grid-column-start: 1;
     grid-column-end:4;
