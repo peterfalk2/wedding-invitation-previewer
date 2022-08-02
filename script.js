@@ -1,8 +1,6 @@
 
 //Hide all but the one background image that we want to see:
 function show1() {
-    document.getElementById('roses1')
-           .style.display = "none";
     document.getElementById('leather')
             .style.display = "none";
     document.getElementById('blossom')
@@ -17,12 +15,9 @@ function show1() {
     document.querySelector(".words5").style.fontFamily = "cursive";
     document.querySelector(".words6").style.fontFamily = "cursive";
     document.querySelector(".words7").style.fontFamily = "cursive";
-
   }
-  
+
   function show2() {
-    document.getElementById('roses1')
-            .style.display = "none";
     document.getElementById('blossom')
             .style.display = "none";
     document.getElementById('roses')
@@ -39,8 +34,6 @@ function show1() {
 }
   
   function show3() {
-    document.getElementById('roses1')
-            .style.display = "none";
     document.getElementById('roses')
             .style.display = "none";
     document.getElementById('leather')

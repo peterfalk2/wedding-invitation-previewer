@@ -16,7 +16,6 @@ header {
     text-shadow: 1px 1px 1px  rgb(92, 90, 90);
     font-size: 5vw;  
     padding-right: 6vw;
-
 }
 #div1 {
     width: 20%;
@@ -41,8 +40,7 @@ main {
     color: rgb(255, 255, 255);
     margin-right: 3vw; 
     margin-left:11.25vw;
-    border-radius: 25px;
-    
+    border-radius: 25px; 
 }
 #div4 {
     position: relative;
@@ -65,7 +63,6 @@ p {
     align-items: center;
     padding-bottom: 1vw;
   }
-
 #choice-1 {
     display: inline-block;
     margin: 5px;
@@ -96,23 +93,14 @@ p {
     border-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
-/* "roses1" will be displayed when a user first opens the website. Other invitation images set to "display: none". */
-#roses1 {
-    position:absolute;
-    width: 65%;
-    object-fit: contain;
-    margin-top: 0vw;
-    margin-left: 3vw;
-    display:block;
-    border-radius: 25px;
-     }
+/* "roses" will be displayed when a user first opens the website. Other invitation images set to "display: none". */
 #roses {
     position:absolute;
     width: 65%;
     object-fit: contain;
     margin-top: 0vw;
     margin-left: 3vw;
-    display:none;
+    display:block;
     border-radius: 25px;
   }
 #leather {
@@ -164,8 +152,7 @@ p {
     grid-column-end:3;
     grid-row-start:1;
     grid-row-end: 3;
-    margin: auto;
-    
+    margin: auto;  
 }
 /*Forcing row height by using "visibility hidden"*/
 #InitialsA {
@@ -174,8 +161,7 @@ p {
     grid-column-end:2;
     grid-row-start:1;
     grid-row-end: 3;
-    visibility: hidden;
-    
+    visibility: hidden;   
 }
 #InitialsB {
     font-size: 3.5vw;
@@ -219,7 +205,6 @@ p {
     margin-left: 4vw;
     margin-right: 5vw;
 }
-
 #weddingDate2 {
     grid-column-start: 1;
     grid-column-end:4;
