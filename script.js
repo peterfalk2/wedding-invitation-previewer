@@ -8,13 +8,13 @@ function show1() {
     document.getElementById(`roses`)
             .style.display = `block`;
 // Is there more succinct code for what follows?:
-    document.querySelector(`.words1`).style.fontFamily = `cursive`;
-    document.querySelector(`.words2`).style.fontFamily = `cursive`;
-    document.querySelector(`.words3`).style.fontFamily = `cursive`;
-    document.querySelector(`.words4`).style.fontFamily = `cursive`;
-    document.querySelector(`.words5`).style.fontFamily = `cursive`;
-    document.querySelector(`.words6`).style.fontFamily = `cursive`;
-    document.querySelector(`.words7`).style.fontFamily = `cursive`;
+    document.querySelector(`#initials`).style.fontFamily = `cursive`;
+    document.querySelector(`#cordially`).style.fontFamily = `cursive`;
+    document.querySelector(`#firstName2`).style.fontFamily = `cursive`;
+    document.querySelector(`#secondName2`).style.fontFamily = `cursive`;
+    document.querySelector(`#surname2`).style.fontFamily = `cursive`;
+    document.querySelector(`#weddingDate2`).style.fontFamily = `cursive`;
+    document.querySelector(`#weddingLocation2`).style.fontFamily = `cursive`;
   }
 
   function show2() {
@@ -24,13 +24,13 @@ function show1() {
             .style.display = `none`;
     document.getElementById(`leather`)
             .style.display = `block`;
-    document.querySelector(`.words1`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`.words2`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`.words3`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`.words4`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`.words5`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`.words6`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`.words7`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`#initials`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`#cordially`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`#firstName2`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`#secondName2`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`#surname2`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`#weddingDate2`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`#weddingLocation2`).style.fontFamily = `'Courier New', Courier, monospace`;
 }
   
   function show3() {
@@ -40,13 +40,13 @@ function show1() {
             .style.display = `none`;
     document.getElementById(`blossom`)
             .style.display = `block`;      
-    document.querySelector(`.words1`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`.words2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`.words3`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`.words4`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`.words5`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`.words6`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`.words7`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`#initials`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`#cordially`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`#firstName2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`#secondName2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`#surname2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`#weddingDate2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`#weddingLocation2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
 }  
   
   
