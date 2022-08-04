@@ -156,7 +156,7 @@ p {
     position: relative;
     text-align: center; 
 }
-#Initials { 
+#initials { 
     color: rgb(244, 220, 124);
     font-size: 3.5vw;
     text-shadow: 1px 1px 1px  rgb(53, 53, 53); 
@@ -168,7 +168,7 @@ p {
     padding-top: 0vw; 
 }
 /*Forcing row height by using "visibility hidden"*/
-#InitialsA {
+#initialsA {
     font-size: 3.5vw;
     grid-column-start: 1;
     grid-column-end:2;
@@ -176,7 +176,7 @@ p {
     grid-row-end: 3;
     visibility: hidden;   
 }
-#InitialsB {
+#initialsB {
     font-size: 3.5vw;
     grid-column-start: 3;
     grid-column-end:4;
