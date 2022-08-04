@@ -1,52 +1,52 @@
 
 //Hide all but the one background image that we want to see:
 function show1() {
-    document.getElementById('leather')
-            .style.display = "none";
-    document.getElementById('blossom')
-            .style.display = "none";
-    document.getElementById('roses')
-            .style.display = "block";
+    document.getElementById(`leather`)
+            .style.display = `none`;
+    document.getElementById(`blossom`)
+            .style.display = `none`;
+    document.getElementById(`roses`)
+            .style.display = `block`;
 // Is there more succinct code for what follows?:
-    document.querySelector(".words1").style.fontFamily = "cursive";
-    document.querySelector(".words2").style.fontFamily = "cursive";
-    document.querySelector(".words3").style.fontFamily = "cursive";
-    document.querySelector(".words4").style.fontFamily = "cursive";
-    document.querySelector(".words5").style.fontFamily = "cursive";
-    document.querySelector(".words6").style.fontFamily = "cursive";
-    document.querySelector(".words7").style.fontFamily = "cursive";
+    document.querySelector(`.words1`).style.fontFamily = `cursive`;
+    document.querySelector(`.words2`).style.fontFamily = `cursive`;
+    document.querySelector(`.words3`).style.fontFamily = `cursive`;
+    document.querySelector(`.words4`).style.fontFamily = `cursive`;
+    document.querySelector(`.words5`).style.fontFamily = `cursive`;
+    document.querySelector(`.words6`).style.fontFamily = `cursive`;
+    document.querySelector(`.words7`).style.fontFamily = `cursive`;
   }
 
   function show2() {
-    document.getElementById('blossom')
-            .style.display = "none";
-    document.getElementById('roses')
-            .style.display = "none";
-    document.getElementById('leather')
-            .style.display = "block";
-    document.querySelector(".words1").style.fontFamily = "'Courier New', Courier, monospace";
-    document.querySelector(".words2").style.fontFamily = "'Courier New', Courier, monospace";
-    document.querySelector(".words3").style.fontFamily = "'Courier New', Courier, monospace";
-    document.querySelector(".words4").style.fontFamily = "'Courier New', Courier, monospace";
-    document.querySelector(".words5").style.fontFamily = "'Courier New', Courier, monospace";
-    document.querySelector(".words6").style.fontFamily = "'Courier New', Courier, monospace";
-    document.querySelector(".words7").style.fontFamily = "'Courier New', Courier, monospace";
+    document.getElementById(`blossom`)
+            .style.display = `none`;
+    document.getElementById(`roses`)
+            .style.display = `none`;
+    document.getElementById(`leather`)
+            .style.display = `block`;
+    document.querySelector(`.words1`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`.words2`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`.words3`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`.words4`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`.words5`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`.words6`).style.fontFamily = `'Courier New', Courier, monospace`;
+    document.querySelector(`.words7`).style.fontFamily = `'Courier New', Courier, monospace`;
 }
   
   function show3() {
-    document.getElementById('roses')
-            .style.display = "none";
-    document.getElementById('leather')
-            .style.display = "none";
-    document.getElementById('blossom')
-            .style.display = "block";      
-    document.querySelector(".words1").style.fontFamily = "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
-    document.querySelector(".words2").style.fontFamily = "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
-    document.querySelector(".words3").style.fontFamily = "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
-    document.querySelector(".words4").style.fontFamily = "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
-    document.querySelector(".words5").style.fontFamily = "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
-    document.querySelector(".words6").style.fontFamily = "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
-    document.querySelector(".words7").style.fontFamily = "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+    document.getElementById(`roses`)
+            .style.display = `none`;
+    document.getElementById(`leather`)
+            .style.display = `none`;
+    document.getElementById(`blossom`)
+            .style.display = `block`;      
+    document.querySelector(`.words1`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`.words2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`.words3`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`.words4`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`.words5`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`.words6`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+    document.querySelector(`.words7`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
 }  
   
   
