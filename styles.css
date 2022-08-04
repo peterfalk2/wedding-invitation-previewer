@@ -184,7 +184,7 @@ p {
     grid-row-end: 3;
     visibility: hidden;
 }
-#blankText1 {
+#blankText {
     font-size: 3.5vw;
     grid-column-start: 1;
     grid-column-end:4;
