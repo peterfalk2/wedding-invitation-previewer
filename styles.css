@@ -144,9 +144,6 @@ p {
   #weddingLocation {
     font-size: 1vw;
   }
-.images {
-    position:relative
-}
 #div5 {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
