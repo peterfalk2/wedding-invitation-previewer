@@ -1,52 +1,43 @@
 
 //Using "none" and "block" to hide all but the one background image that we want to see:
 function show1() {
-    document.getElementById(`leather`)
-            .style.display = `none`;
-    document.getElementById(`blossom`)
-            .style.display = `none`;
-    document.getElementById(`roses`)
-            .style.display = `block`;
-// Having a querySelector for each line of text individually means that I can leave the hidden text in the longer-height cursive font, so that the layout positioning changes only slightly.
-    document.querySelector(`#initials`).style.fontFamily = `cursive`;
-    document.querySelector(`#cordially`).style.fontFamily = `cursive`;
-    document.querySelector(`#firstName2`).style.fontFamily = `cursive`;
-    document.querySelector(`#secondName2`).style.fontFamily = `cursive`;
-    document.querySelector(`#surname2`).style.fontFamily = `cursive`;
-    document.querySelector(`#weddingDate2`).style.fontFamily = `cursive`;
-    document.querySelector(`#weddingLocation2`).style.fontFamily = `cursive`;
+        document.getElementById(`leather`).style.display = `none`;
+        document.getElementById(`blossom`).style.display = `none`;
+        document.getElementById(`roses`).style.display = `block`;
+// Having a method for each line of text individually means that I can leave the hidden text in the longer-height cursive font, so that the layout positioning changes only slightly.
+        document.getElementById(`initials`).style.fontFamily = `cursive`;
+        document.getElementById(`cordially`).style.fontFamily = `cursive`;
+        document.getElementById(`firstName2`).style.fontFamily = `cursive`;
+        document.getElementById(`secondName2`).style.fontFamily = `cursive`;
+        document.getElementById(`surname2`).style.fontFamily = `cursive`;
+        document.getElementById(`weddingDate2`).style.fontFamily = `cursive`;
+        document.getElementById(`weddingLocation2`).style.fontFamily = `cursive`;
   }
 
   function show2() {
-    document.getElementById(`blossom`)
-            .style.display = `none`;
-    document.getElementById(`roses`)
-            .style.display = `none`;
-    document.getElementById(`leather`)
-            .style.display = `block`;
-    document.querySelector(`#initials`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`#cordially`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`#firstName2`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`#secondName2`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`#surname2`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`#weddingDate2`).style.fontFamily = `'Courier New', Courier, monospace`;
-    document.querySelector(`#weddingLocation2`).style.fontFamily = `'Courier New', Courier, monospace`;
+        document.getElementById(`blossom`).style.display = `none`;
+        document.getElementById(`roses`).style.display = `none`;
+        document.getElementById(`leather`).style.display = `block`;
+        document.getElementById(`initials`).style.fontFamily = `'Courier New', Courier, monospace`;
+        document.getElementById(`cordially`).style.fontFamily = `'Courier New', Courier, monospace`;
+        document.getElementById(`firstName2`).style.fontFamily = `'Courier New', Courier, monospace`;
+        document.getElementById(`secondName2`).style.fontFamily = `'Courier New', Courier, monospace`;
+        document.getElementById(`surname2`).style.fontFamily = `'Courier New', Courier, monospace`;
+        document.getElementById(`weddingDate2`).style.fontFamily = `'Courier New', Courier, monospace`;
+        document.getElementById(`weddingLocation2`).style.fontFamily = `'Courier New', Courier, monospace`;
 }
   
   function show3() {
-    document.getElementById(`roses`)
-            .style.display = `none`;
-    document.getElementById(`leather`)
-            .style.display = `none`;
-    document.getElementById(`blossom`)
-            .style.display = `block`;      
-    document.querySelector(`#initials`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`#cordially`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`#firstName2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`#secondName2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`#surname2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`#weddingDate2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
-    document.querySelector(`#weddingLocation2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+        document.getElementById(`roses`).style.display = `none`;
+        document.getElementById(`leather`).style.display = `none`;
+        document.getElementById(`blossom`).style.display = `block`;      
+        document.getElementById(`initials`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+        document.getElementById(`cordially`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+        document.getElementById(`firstName2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+        document.getElementById(`secondName2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+        document.getElementById(`surname2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+        document.getElementById(`weddingDate2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
+        document.getElementById(`weddingLocation2`).style.fontFamily = `'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif`;
 }  
   
   
