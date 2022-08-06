@@ -119,7 +119,7 @@ p {
     position: relative;
     text-align: center; 
 }
-#Initials { 
+#initials { 
     color: rgb(244, 220, 124);
     font-size: 10vw;
     text-shadow: 1px 1px 1px  rgb(53, 53, 53); 
@@ -130,14 +130,14 @@ p {
     margin: auto;  
     padding-top: .5vw;
 }
-#InitialsA {
+#initialsA {
     font-size: 11vw;
      
 }
-#InitialsB {
+#initialsB {
     font-size: 11vw;
 }
-#blankText1 {
+#blankText {
     font-size: 12vw;
 }
 }

@@ -4,7 +4,7 @@ function show1() {
         document.getElementById(`leather`).style.display = `none`;
         document.getElementById(`blossom`).style.display = `none`;
         document.getElementById(`roses`).style.display = `block`;
-// Having a method for each line of text individually means that I can leave the hidden text in the longer-height cursive font, so that the layout positioning changes only slightly.
+// Having a statement for each line of text individually means that I can leave the hidden text in the longer-height cursive font, so that the layout positioning changes only slightly.
         document.getElementById(`initials`).style.fontFamily = `cursive`;
         document.getElementById(`cordially`).style.fontFamily = `cursive`;
         document.getElementById(`firstName2`).style.fontFamily = `cursive`;
@@ -44,7 +44,7 @@ function show1() {
   document.getElementById(`firstName`).onkeyup = function () {
           let name1 = document.getElementById(`firstName`).value;
           document.getElementById(`firstName2`).innerText = name1;
-// Selecting the first initial of the name (which is position 0) and display that or an empty string (nothing):
+// Selecting the first initial of the name (which is the letter in position 0) and display that or an empty string (nothing):
           document.getElementById(`initials`).innerText = name1[0] || ``;     
   }
  
@@ -61,8 +61,8 @@ function show1() {
 
 // So, using a Ternary Expression, (condition ? return if true : return if false;)
 //if A is true (ie BOTH name1 and name 2 are NOT empty strings), the first string is displayed and if A is false the second (empty) string is displayed. 
-          document.getElementById(`firstName2`).innerText = A ? `${name1} & ${name2}` : ``;
-          document.getElementById(`initials`).innerText = A ? `${name1[0]} & ${name2[0]}` : ``;
+         document.getElementById(`firstName2`).innerText = A ? `${name1} & ${name2}` : ``;
+         document.getElementById(`initials`).innerText = A ? `${name1[0]} & ${name2[0]}` : ``;
 } 
    
 
